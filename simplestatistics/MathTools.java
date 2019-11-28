@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package simplestatistics;
 
 import java.util.ArrayList;
@@ -10,7 +5,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author s4nk4
+ * @author Jerezzz
  */
 public class MathTools {
     
@@ -62,6 +57,7 @@ public class MathTools {
         // make similar method fro converting int's to Strings
         HashMap<String, String> dblstoStrings = new HashMap<>();
         for (Double value : freqdists.keySet()) {
+            
             String svalue = Double.toString(value);
             String sn = Integer.toString(freqdists.get(value));
             dblstoStrings.put(svalue, sn);
