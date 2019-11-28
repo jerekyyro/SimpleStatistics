@@ -1,0 +1,47 @@
+<LUKIJA>
+
+lukeminen 
+- näpäimistöltä OK
+- tekstitiedostosta
+- csv:stä
+- xls:stä
+
+tallennus
+- datasetti
+- tulosteet / tilastot
+
+<MATHTOOLS>
+
+Havainnot --> list (N) OK
+frekvenssijakauma --> hashmap (N,N) OK
+-- myös %!
+
+summafreq!
+
+järjestä!
+
+luokkarajat? --> luokittelu
+
+Tunnusluvut
+mode OK
+median 
+--> quartiles, fractiles
+mean (arithmetic?) 
+-- geometric OK
+-- harmonic
+classAvg = paljonko luokassa keskim.
+
+Hajonnan tluvut
+vaihteluvälin pituus
+-- kvartiilivälin pituus, kvartiilipoikkeama
+varianssi
+keskihajonta (keskimääräinen poikkeama)
+
+Riippuvuuskertoimet
+
+Korrelaatio
+
+Kovarianssi
+
+<GRAFIIKKA>
+...
