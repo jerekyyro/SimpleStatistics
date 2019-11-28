@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package simplestatistics;
 
 import java.util.ArrayList;
@@ -11,13 +6,12 @@ import java.util.Scanner;
 
 /**
  *
- * @author s4nk4
+ * @author Jerezzz
  */
 public class Read {
     
-    // erillinen lukija filelle ja system.inille 
-    // --> syöttää metodeille, joka lukee siltä muotoon int ja double!
-    
+    // readers for file and system.in
+    //---> feeds to methods that read it as int or double
     public static ArrayList<String> frmKbd() {
         Scanner reader = new Scanner(System.in);
         System.out.println("Enter values or nothing to exit");
