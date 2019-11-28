@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package simplestatistics;
 
 import java.util.ArrayList;
@@ -11,7 +6,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author s4nk4
+ * @author Jerezzz
  */
 public class SimpleStatistics {
 
@@ -39,6 +34,7 @@ public class SimpleStatistics {
                 integers.add(Integer.valueOf(input));
             }
         }
+
         //DOUBLES
         
         if (selection == 2) {
@@ -59,7 +55,8 @@ public class SimpleStatistics {
         //ei toimi System.out.println(MathTools.geoMeanFromFreqDistr(MathTools.freqDistDbl(doubles)));
         
         }
-//STRINGS
+
+        //STRINGS
         if (selection == 3) {
             ArrayList<String> strings = new ArrayList<>();    
             strings = Read.frmKbd();
@@ -71,7 +68,8 @@ public class SimpleStatistics {
         if (selection != 1 || selection !=2 || selection != 3) {
             System.out.println("invalid input!");
         }
-// DOING THINGS WITH THE LISTS
+    
+        // DOING THINGS WITH THE LISTS
         
         
         
